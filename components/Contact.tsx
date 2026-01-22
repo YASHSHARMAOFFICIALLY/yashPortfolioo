@@ -65,7 +65,7 @@ export default function Contact() {
                   <FaGithub className="w-4 h-4" />
                 </Link>
                 <Link
-                  href="www.linkedin.com/in/buildwithyash"
+                  href="https://www.linkedin.com/in/buildwithyash/"
                   className="w-10 h-10 rounded border border-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-[#0077b5] hover:text-white hover:border-[#0077b5] transition-all duration-300"
                 >
                   <FaLinkedin className="w-4 h-4" />
