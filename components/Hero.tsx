@@ -10,7 +10,7 @@ export default function Hero(){
                 <div className="relative w-20 h-20 lg:w-28 lg:h-28 aspect-square rounded-full overflow-visible">
                     <div className="w-full h-full aspect-square rounded-full overflow-hidden border-2 border-neutral-800">
                     <Image
-                    src="/assets/face.jpeg"
+                    src="/assets/yashphoto.jpeg"
                     alt="yash photo "
                     fill
                     className="object-cover rounded-full"
@@ -38,7 +38,7 @@ export default function Hero(){
            
           </p>
 
-          <div className="flex flex-col gap-1 text-base ">
+          <div className="flex flex-col gap-1 text-base font-bold">
             <a
               href="mailto:yashsharmaofficially@gmail.com.com"
               className="text-neutral-400 hover:text-pink-400 transition-colors w-fit"
@@ -46,13 +46,15 @@ export default function Hero(){
               yashsharmaofficially@gmail.com
             </a>
           </div>
-           <p className="flex flex-wrap items-center gap-4">
+           <p className="flex flex-wrap items-center gap-1">
+            <span className="text-pink-400 text-xl">Open to Work:</span>
+            <span className="text-xl tracking-tight">Full-Time, Freelance, or Collabs.</span>
             <Link
               href="https://calendly.com/buildwithyashx"
               target="_blank"
               className="group relative inline-block text-pink-400 hover:text-white transition-colors"
             >
-              <span className="relative z-10">Book a Call</span>
+              <span className="relative z-10 text-xl"> Let's talk</span>
               {/* Micro animation underline effect */}
               <span className="absolute -bottom-0.5 left-0 w-0 h-[0.5px] bg-pink-400/60 group-hover:w-full transition-all duration-300 ease-out"></span>
               {/* Hover tooltip */}
@@ -62,7 +64,7 @@ export default function Hero(){
             </Link>
 
             {/* Student Badge */}
-            <StudentBadge />
+            {/* <StudentBadge /> */}
           </p>
         </div>
       </div>
@@ -76,7 +78,7 @@ export default function Hero(){
           {/* Image Container */}
           <div className="relative w-full h-full rounded-3xl overflow-hidden border border-neutral-800/50 bg-neutral-900/50 backdrop-blur-sm">
             <Image
-              src="/assets/face.jpeg"
+              src="/assets/yashphoto.jpeg"
               alt="Yash Sharma"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"

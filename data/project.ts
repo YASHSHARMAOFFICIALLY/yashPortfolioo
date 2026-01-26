@@ -39,6 +39,26 @@ export const ProjectsData :Project[] = [
         LinkGit:"https://betana-bite.vercel.app",
         category:"fullstack",
         Technologies:["Nextjs", "Tailwind"],
+    },{
+     id:4,
+        Name:"Finta Hero-Section Clone ",
+        Description:"A high-fidelity clone of the Finta hero section, built as a practice project to master Tailwind CSS and responsive web design.",
+        bgimage:"/assets/Finta.png",
+        bgDarkImage:"/assets/Finta.png",
+        LinkGit:"finta-clone-xi.vercel.app",
+        category:"uiux",
+        Technologies:["Tailwind"],
     },
+    {
+     id:5,
+        Name:"ElevenLab Hero-Section Clone ",
+        Description:"A high-fidelity clone of the ElevenLab hero section, built as a practice project to master Tailwind CSS and responsive web design.",
+        bgimage:"/assets/Elevenlab.png",
+        bgDarkImage:"/assets/Elevenlab.png",
+        LinkGit:"https://webdev-bootcamp-47be.vercel.app/",
+        category:"uiux",
+        Technologies:["Tailwind"],
+    },
+
    
 ]

@@ -8,20 +8,14 @@ export default function Navbar(){
     const pathname = usePathname();
     const links = [
         {href:"/",label:"Home",color:"hover:text-cyan-400",active:"text-cyan-400"},
-        {href:"/about",label:"About",color:"hover:text-cyan-400",active:"text-cyan-400"},
+        
         {href:"/projects",label:"Projects",color:"hover:text-cyan-400",active:"text-cyan-400"},
 
     ]
     return (
         <nav className="w-full max-w-6xl mx-auto px-6 py-8 flex items-center justify-between text-sm font-light font-figtree z-50 relative">
             <Link href="/" className="hover:opacity-80 transition-opacity">
-            <Image
-          src="/assets/logo.png"
-          alt="Logo"
-          width={40}
-          height={40}
-          className="w-10 h-10 object-contain rounded-md"
-        />
+          
       </Link>
       <div className="flex gap-8 backdrop-blur-md bg-background/50 px-6 py-2">
       {links.map((link)=>{
