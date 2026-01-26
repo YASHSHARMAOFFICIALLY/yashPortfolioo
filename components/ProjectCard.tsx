@@ -46,8 +46,10 @@ export default function ProjectCard({project,index=0}:ProjectCardProps){
             <ExternalLink className="w-3.5 h-3.5" /> Live Preview
           </Link>
           <Link
-            href="#"
-            className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-500 transition-colors cursor-not-allowed"
+            href={project.Repo}
+            target="_blank"
+            className={`flex items-center gap-1.5 opacity-90 ${theme.text} ${theme.hover} transition-colors`}
+            // className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-500 transition-colors cursor-pointer"
           >
             <Github className="w-3.5 h-3.5" /> Repo Url
           </Link>

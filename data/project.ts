@@ -7,28 +7,21 @@ export interface Project {
   LinkGit: string;
   category: "uiux" | "fullstack" | "freelance" | "general";
   Technologies?: string[];
+  Repo:string;
 }
 
 export const ProjectsData :Project[] = [
+    
     {
         id:1,
-        Name: "Solana HD Wallet",
-        Description:"HD Wallet is a secure multi-chain HD wallet generator supporting Solana, — create, view, and manage your keys locally with a clean and modern UI.",
-        bgimage:"/assets/walletlight.png",
-        bgDarkImage:"/assests/walletdark.png",
-        LinkGit:"hdwallet-nu.vercel.app",
-        category: "fullstack",
-        Technologies:["Nextjs", "Tailwind"],
-    },
-    {
-        id:2,
         Name:"paytmm-clone",
         Description:"A finance application like Paytm where user can create their own account, send money to other person then the money will be deducted from their wallet and will credit to other people wallet ",
         bgimage:"/assets/paytm.png",
         bgDarkImage:"/assests/paytm.png",
         LinkGit:"https://paytm-clonee.vercel.app/",
         category:"fullstack",
-        Technologies:["Vite","Tailwind"]
+        Technologies:["Vite","Tailwind"],
+        Repo:"https://github.com/YASHSHARMAOFFICIALLY/paytmm_clone",
     },
         {
         id:3,
@@ -37,6 +30,7 @@ export const ProjectsData :Project[] = [
         bgimage:"/assets/Betana.png",
         bgDarkImage:"/assets/Betana.png",
         LinkGit:"https://betana-bite.vercel.app",
+        Repo:"https://github.com/YASHSHARMAOFFICIALLY/Betana-Bite",
         category:"fullstack",
         Technologies:["Nextjs", "Tailwind"],
     },{
@@ -48,6 +42,18 @@ export const ProjectsData :Project[] = [
         LinkGit:"finta-clone-xi.vercel.app",
         category:"uiux",
         Technologies:["Tailwind"],
+        Repo:"https://github.com/YASHSHARMAOFFICIALLY/Finta_clone-",
+    },
+    {
+        id:2,
+        Name: "Solana HD Wallet",
+        Description:"HD Wallet is a secure multi-chain HD wallet generator supporting Solana, — create, view, and manage your keys locally with a clean and modern UI.",
+        bgimage:"/assets/walletlight.png",
+        bgDarkImage:"/assests/walletdark.png",
+        Repo:"https://github.com/YASHSHARMAOFFICIALLY/Solana-Wallet",
+        LinkGit:"hdwallet-nu.vercel.app",
+        category: "fullstack",
+        Technologies:["Nextjs", "Tailwind"],
     },
     {
      id:5,
@@ -58,6 +64,7 @@ export const ProjectsData :Project[] = [
         LinkGit:"https://webdev-bootcamp-47be.vercel.app/",
         category:"uiux",
         Technologies:["Tailwind"],
+        Repo:"https://webdev-bootcamp-47be.vercel.app"
     },
 
    
