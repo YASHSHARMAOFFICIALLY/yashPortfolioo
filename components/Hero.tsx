@@ -7,7 +7,7 @@ export default function Hero(){
     return (
         <section className="flex flex-col lg:flex-row lg:items-center lg:-justify-between gap-12 mt-10">
             <div className="flex flex-col gap-8 lg:flex-1">
-                <div className="relative w-20 h-20 lg:w-28 lg:h-28 aspect-square rounded-full overflow-visible">
+                <div className="  relative w-20 h-20 lg:w-28 lg:h-28 aspect-square rounded-full overflow-visible">
                     <div className="w-full h-full aspect-square rounded-full overflow-hidden border-2 border-neutral-800">
                     <Image
                     src="/assets/yashphoto.jpeg"
@@ -76,7 +76,7 @@ export default function Hero(){
           <div className="absolute inset-0 bg-linear-to-br from-pink-500/20 via-purple-500/10 to-transparent rounded-3xl blur-2xl"></div>
 
           {/* Image Container */}
-          <div className="relative w-full h-full rounded-3xl overflow-hidden border border-neutral-800/50 bg-neutral-900/50 backdrop-blur-sm">
+          <div className=" relative w-full h-full rounded-3xl overflow-hidden border border-neutral-800/50 bg-neutral-900/50 backdrop-blur-sm">
             <Image
               src="/assets/yashphoto.jpeg"
               alt="Yash Sharma"
