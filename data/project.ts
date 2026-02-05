@@ -11,6 +11,17 @@ export interface Project {
 }
 
 export const ProjectsData :Project[] = [
+    {
+        id:6,
+        Name:"Argoya Assam",
+        Description:"A Health Application which used to Detect Anemia through Questinoarie without Lab test also it show you nearby hospital around you so that you dont have to search ",
+        bgimage:"/assests/ArgoyaAssam.png",
+        bgDarkImage:"/assests/ArgoyaAssam.png",
+        LinkGit:"https://hackathon-beta-steel.vercel.app/",
+        category:"fullstack",
+        Technologies:["Nextjs", "Tailwind"],
+        Repo:"none",
+    },
     
     {
         id:1,
@@ -33,7 +44,8 @@ export const ProjectsData :Project[] = [
         Repo:"https://github.com/YASHSHARMAOFFICIALLY/Betana-Bite",
         category:"fullstack",
         Technologies:["Nextjs", "Tailwind"],
-    },{
+    },
+    {
      id:4,
         Name:"Finta Hero-Section Clone ",
         Description:"A high-fidelity clone of the Finta hero section, built as a practice project to master Tailwind CSS and responsive web design.",
