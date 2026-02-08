@@ -63,7 +63,7 @@ export const ProjectsData :Project[] = [
         bgimage:"/assets/walletlight.png",
         bgDarkImage:"/assests/walletdark.png",
         Repo:"https://github.com/YASHSHARMAOFFICIALLY/Solana-Wallet",
-        LinkGit:"hdwallet-nu.vercel.app",
+        LinkGit:"https://hdwallet-nu.vercel.app",
         category: "fullstack",
         Technologies:["Nextjs", "Tailwind"],
     },
